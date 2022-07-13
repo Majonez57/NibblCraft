@@ -1,10 +1,18 @@
 
 ### ---- Toast Sammich
+# Bread
+craftingTable.removeByName("minecraft:bread");
+craftingTable.addShapeless("dough_conversion1", <item:croptopia:dough>, [<item:create:dough>]);
+craftingTable.addShapeless("dough_conversion2", <item:create:dough>, [<item:croptopia:dough>]);
 
 # Remove "smelting" toast
 furnace.removeByName("croptopia:toast_from_bread");
+
+# Butter Creation
+<recipetype:create:mixing>.addRecipe("butter_mixing",  <constant:create:heat_condition:none>, [<item:croptopia:butter> * 8], [<tag:items:forge:salts>], [<fluid:minecraft:milk> * 1000], 1600);
 # Add butter deployment
-<recipetype:create:deploying>.addRecipe("butter_deployment", <item:croptopia:toast>, <item:croptopia:butter>, [(<item:croptopia:buttered_toast> * 3) % 30, <item:croptopia:buttered_toast> % 70]);
+craftingTable.removeByName("croptopia:butter");
+<recipetype:create:deploying>.addRecipe("butter_deployment", <item:croptopia:toast>, <item:croptopia:butter>, [(<item:croptopia:buttered_toast> * 2) % 30, <item:croptopia:buttered_toast> % 70]);
 # Sequence
 
 <recipetype:create:sequenced_assembly>.addRecipe(<recipetype:create:sequenced_assembly>.builder("toast_sammig_seqn")
@@ -16,8 +24,11 @@ furnace.removeByName("croptopia:toast_from_bread");
                                                       .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<item:minecraft:bread>)));
 
 ### ---- 
-# Burger
+# Cheese
+craftingTable.removeByName("croptopia:cheese");
+<recipetype:create:mixing>.addRecipe("cheese_mixing",  <constant:create:heat_condition:none>, [<item:croptopia:cheese> * 4], [<item:croptopia:lemon>], [<fluid:minecraft:milk> * 1000], 1600);
 
+# Burger
 craftingTable.removeByName("croptopia:cheeseburger");
 craftingTable.removeByName("croptopia:hamburger");
 
