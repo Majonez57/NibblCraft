@@ -6,7 +6,6 @@
 
 #Assembler Terminals
 
-
 craftingTable.removeByName(["ae2:network/parts/terminals"]);
 
 <recipetype:create:sequenced_assembly>.addRecipe(<recipetype:create:sequenced_assembly>.builder("me_terminal_seqn")
