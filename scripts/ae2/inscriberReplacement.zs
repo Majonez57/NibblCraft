@@ -23,9 +23,13 @@ JEI.hideIngredient(<item:ae2:inscriber>);
 
 # Dust Crusing Recipes 
 
-<recipetype:create:crushing>.addRecipe("quartz_dush_crush", [<item:ae2:certus_quartz_dust>], <tag:items:forge:gems/quartz>, 200);
-<recipetype:create:crushing>.addRecipe("fluix_dush_crush", [<item:ae2:fluix_dust> % 75, (<item:ae2:fluix_dust> * 2) % 25],<item:ae2:fluix_crystal>, 200);
-<recipetype:create:crushing>.addRecipe("skystone_dush_crush", [<item:ae2:sky_dust>], <item:ae2:sky_dust>, 200);
+<recipetype:create:crushing>.addRecipe("quartz_dush_crush", [(<item:ae2:certus_quartz_dust> * 2 ) % 75, <item:ae2:certus_quartz_dust> % 25], <tag:items:ae2:all_certus_quartz>);
+<recipetype:create:crushing>.addRecipe("fluix_dush_crush", [(<item:ae2:fluix_dust> * 2) % 75, <item:ae2:fluix_dust> % 25],<item:ae2:fluix_crystal>);
+<recipetype:create:crushing>.addRecipe("skystone_dush_crush", [<item:ae2:sky_dust>], <item:ae2:sky_stone_block>, 200);
+
+<recipetype:create:milling>.addRecipe("quartz_dush_mill", [<item:ae2:certus_quartz_dust>],<tag:items:ae2:all_certus_quartz>);
+<recipetype:create:milling>.addRecipe("fluix_dush_mill", [<item:ae2:fluix_dust>],<item:ae2:fluix_crystal>);
+
 
 # Sequenced Assembly circuits
 
