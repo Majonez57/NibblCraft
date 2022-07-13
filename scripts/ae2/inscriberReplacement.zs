@@ -52,5 +52,3 @@ JEI.hideIngredient(<item:ae2:inscriber>);
                                                       .addOutput(<item:ae2:logic_processor>, 100)
                                                       .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<item:minecraft:redstone>))
                                                       .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<item:ae2:printed_logic_processor>)));
-
-<recipetype:create:mixing>.addRecipe("fluix_dust_mixed", <constant:create:heat_condition:none>, [(<item:ae2:fluix_dust> * 2) % 50, (<item:ae2:fluix_dust> * 3) % 50], [<item:minecraft:redstone>, (<item:ae2:certus_quartz_dust> * 2), <item:ae2:charged_certus_quartz_crystal>],[<fluid:minecraft:water> * 250], 400);
