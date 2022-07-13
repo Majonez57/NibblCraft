@@ -7,7 +7,7 @@
 #Assembler Terminals
 
 
-craftingTable.removeByName(["ae2:network/parts/terminals_crafting", "ae2:network/parts/terminals"]);
+craftingTable.removeByName(["ae2:network/parts/terminals"]);
 
 <recipetype:create:sequenced_assembly>.addRecipe(<recipetype:create:sequenced_assembly>.builder("me_terminal_seqn")
                                                       .transitionTo(<item:ae2:semi_dark_monitor>)
@@ -17,11 +17,3 @@ craftingTable.removeByName(["ae2:network/parts/terminals_crafting", "ae2:network
                                                       .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<item:ae2:annihilation_core>))
                                                       .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<item:ae2:logic_processor>))
                                                       .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<item:ae2:formation_core>)));
-
-<recipetype:create:sequenced_assembly>.addRecipe(<recipetype:create:sequenced_assembly>.builder("mec_terminal_seqn")
-                                                      .transitionTo(<item:minecraft:crafting_table>)
-                                                      .require(<item:minecraft:crafting_table>)
-                                                      .loops(1)
-                                                      .addOutput(<item:ae2:crafting_terminal>, 100)
-                                                      .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<item:ae2:calculation_processor>))
-                                                      .addStep<mods.createtweaker.DeployerApplicationRecipe>((rb) => rb.require(<item:ae2:terminal>)));
