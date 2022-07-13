@@ -21,11 +21,10 @@ JEI.hideIngredient(<item:ae2:inscriber>);
 <recipetype:create:deploying>.addRecipe("calculation_processor_press_dupe", <item:minecraft:iron_block>,<item:ae2:calculation_processor_press>, [<item:ae2:calculation_processor_press> * 2]);
 <recipetype:create:deploying>.addRecipe("logic_processor_press", <item:minecraft:iron_block>, <item:ae2:logic_processor_press>, [<item:ae2:logic_processor_press> * 2]);
 
-# Dust Crusing Recipes 
-
-<recipetype:create:crushing>.addRecipe("quartz_dush_crush", [<item:ae2:certus_quartz_dust>], <tag:items:forge:gems/quartz>, 200);
-<recipetype:create:crushing>.addRecipe("fluix_dush_crush", [<item:ae2:fluix_dust> % 75, (<item:ae2:fluix_dust> * 2) % 25],<item:ae2:fluix_crystal>, 200);
-<recipetype:create:crushing>.addRecipe("skystone_dush_crush", [<item:ae2:sky_dust>], <item:ae2:sky_dust>, 200);
+# Dust Crushing Recipes
+<recipetype:create:crushing>.addRecipe("quartz_dust_crush", [<item:ae2:certus_quartz_dust>], <tag:items:forge:gems/quartz>, 100);
+<recipetype:create:crushing>.addRecipe("fluix_dust_crush", [<item:ae2:fluix_dust> % 75, (<item:ae2:fluix_dust> * 2) % 25],<item:ae2:fluix_crystal>, 100);
+<recipetype:create:crushing>.addRecipe("skystone_dust_crush", [<item:ae2:sky_dust>], <item:ae2:sky_dust>, 200);
 
 # Sequenced Assembly circuits
 
