@@ -1,3 +1,4 @@
+import mods.jei.JEI;
 
 craftingTable.removeByName(["ae2:network/crafting/cpu_crafting_unit", 
                             "ae2:network/crafting/cpu_crafting_accelerator", 
