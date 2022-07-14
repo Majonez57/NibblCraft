@@ -12,7 +12,7 @@ furnace.removeByName("croptopia:toast_from_bread");
 <recipetype:create:mixing>.addRecipe("butter_mixing",  <constant:create:heat_condition:none>, [<item:croptopia:butter> * 8], [<tag:items:forge:salts>], [<fluid:minecraft:milk> * 1000], 1600);
 # Add butter deployment
 craftingTable.removeByName("croptopia:butter");
-<recipetype:create:deploying>.addRecipe("butter_deployment", <item:croptopia:toast>, <item:croptopia:butter>, [(<item:croptopia:buttered_toast> * 2) % 30, <item:croptopia:buttered_toast> % 70]);
+<recipetype:create:deploying>.addRecipe("butter_deployment", <item:croptopia:toast>, <item:croptopia:butter>, [<item:croptopia:buttered_toast>, <item:croptopia:buttered_toast> % 30]);
 # Sequence
 
 <recipetype:create:sequenced_assembly>.addRecipe(<recipetype:create:sequenced_assembly>.builder("toast_sammig_seqn")
