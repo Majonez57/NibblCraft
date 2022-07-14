@@ -1,6 +1,6 @@
 name = "Effective (Forge)"
 filename = "effective_fg-1.1.jar"
-side = "both"
+side = "client"
 
 [download]
 hash-format = "sha1"

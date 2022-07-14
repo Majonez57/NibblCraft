@@ -137,7 +137,7 @@ metafile = true
 
 [[files]]
 file = "mods/effective-forge.pw.toml"
-hash = "b421147d14251eb154bc6846cf083cc6de197a9db783c1904bb992764aaf9f6e"
+hash = "ce083360b4f2bba79d7931dcc45031964d867e7e3abe9dbf246217b4e6125b35"
 metafile = true
 
 [[files]]
@@ -212,7 +212,7 @@ metafile = true
 
 [[files]]
 file = "mods/mouse-tweaks.pw.toml"
-hash = "80ebf49d29a321fbc0c78c54d98cb65a7bcd9b74f109254e759a603a56aa2fe5"
+hash = "12e97456e6589a060e60a6939dbb7ae2712ad1492846e5200fd4a8129b5c82bb"
 metafile = true
 
 [[files]]
@@ -227,7 +227,7 @@ metafile = true
 
 [[files]]
 file = "mods/nekos-enchanted-books.pw.toml"
-hash = "cf74d0616aaa00a27c8f36b32112d3c7226540bde65e13b5ad00771afd06f5c2"
+hash = "84eacb61ebf26dc4a23cbc77c4dca69095baea5dc42c663dcf9b7977f3e6223c"
 metafile = true
 
 [[files]]
@@ -282,7 +282,7 @@ metafile = true
 
 [[files]]
 file = "mods/wthit-forge.pw.toml"
-hash = "9358f5b630fdb0b7d50fe12704c4e76ed1ac2ee2bcecc6c180f303bd948e8e8a"
+hash = "0691b76eee4f0a57c9b14fdc16f599b4e4d9465080d036b55b92c08474b3d594"
 metafile = true
 
 [[files]]
