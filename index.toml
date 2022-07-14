@@ -231,11 +231,6 @@ hash = "cf74d0616aaa00a27c8f36b32112d3c7226540bde65e13b5ad00771afd06f5c2"
 metafile = true
 
 [[files]]
-file = "mods/nock-enough-arrows.pw.toml"
-hash = "f0c7bd6e7a89b4252938738f760eb0ec3184afe37f9ae59af548c918e19befaf"
-metafile = true
-
-[[files]]
 file = "mods/oh-the-biomes-youll-go.pw.toml"
 hash = "bf804385b1b7e38716512c51023f8d4bac3ddc6c396a50eb8468871a870f56d7"
 metafile = true
