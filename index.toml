@@ -136,11 +136,6 @@ hash = "8d691ecc57a5e273fe40bdebbc97fda0111bfa9987c0d4a2315f4c1bca205ba5"
 metafile = true
 
 [[files]]
-file = "mods/effective-forge.pw.toml"
-hash = "ce083360b4f2bba79d7931dcc45031964d867e7e3abe9dbf246217b4e6125b35"
-metafile = true
-
-[[files]]
 file = "mods/enchantment-descriptions.pw.toml"
 hash = "608d1d62583d9470dbf654949dcd76eb67923c791af9b04f3f857715236e1624"
 metafile = true
