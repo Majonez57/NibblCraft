@@ -1,6 +1,7 @@
 name = "NibblCraft"
 author = "Majonez57"
 version = "1.0.0"
+description = "Nibblcraft is a small modpack for frens"
 pack-format = "packwiz:1.1.0"
 
 [index]
