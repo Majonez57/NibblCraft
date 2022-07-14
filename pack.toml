@@ -1,0 +1,13 @@
+name = "NibblCraft"
+author = "Majonez57"
+version = "1.0.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "9d6999afc64720a32fec32e5dd9eb774bc126c0fe806552a3690409af1761748"
+
+[versions]
+forge = "40.1.60"
+minecraft = "1.18.2"

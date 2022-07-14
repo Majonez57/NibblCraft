@@ -1,2 +1,3 @@
-# NibbleCraftTweaks
-Craft Tweaks for NibbleCraft modpack
+# NibblCraft
+
+Nibblcraft is a small modpack for frens
