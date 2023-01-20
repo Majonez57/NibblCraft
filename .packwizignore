@@ -6,3 +6,6 @@
 
 # Exclude CNAME
 **/CNAME
+
+# Exclude build files
+/build
