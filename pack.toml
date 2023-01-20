@@ -1,14 +1,14 @@
 name = "NibblCraft"
 author = "Majonez57"
-version = "2.0.1"
-description = "Nibblcraft is a small modpack for frens"
+version = "2.1.0-alpha"
+description = "NibblCraft is a small modpack for frens"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "ec6c321e16a5cea88629d047483a30bde789290db9d85e0846ebd9a394773f7c"
+hash = "6ecaf644299ccb2ea222a3b10cb837fd318e6a7a35258beb05b82bd69056866e"
 
 [versions]
-forge = "40.1.60"
+forge = "40.2.0"
 minecraft = "1.18.2"

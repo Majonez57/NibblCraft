@@ -9,16 +9,16 @@ craftingTable.remove(<item:ae2:inscriber>);
 JEI.hideIngredient(<item:ae2:inscriber>);
 
 # Circuit deployment
-<recipetype:create:deploying>.addRecipe("engineering_circuit_deployed", <item:minecraft:diamond>, <item:ae2:engineering_processor_press>, [<item:ae2:printed_engineering_processor>, <item:ae2:engineering_processor_press>]);
-<recipetype:create:deploying>.addRecipe("printed_silicon_deployed", <item:ae2:silicon>, <item:ae2:silicon_press>, [<item:ae2:printed_silicon>, <item:ae2:silicon_press>]);
-<recipetype:create:deploying>.addRecipe("printed_calculation_deployed", <tag:items:ae2:all_certus_quartz>,<item:ae2:calculation_processor_press>, [<item:ae2:printed_calculation_processor>, <item:ae2:calculation_processor_press>]);
-<recipetype:create:deploying>.addRecipe("printed_logic_deployed", <item:minecraft:gold_ingot>, <item:ae2:logic_processor_press>, [<item:ae2:printed_logic_processor>, <item:ae2:logic_processor_press>]);
+<recipetype:create:deploying>.addRecipe("engineering_circuit_deployed", <item:minecraft:diamond>, <item:ae2:engineering_processor_press>, [<item:ae2:printed_engineering_processor>], true);
+<recipetype:create:deploying>.addRecipe("printed_silicon_deployed", <item:ae2:silicon>, <item:ae2:silicon_press>, [<item:ae2:printed_silicon>], true);
+<recipetype:create:deploying>.addRecipe("printed_calculation_deployed", <tag:items:ae2:all_certus_quartz>,<item:ae2:calculation_processor_press>, [<item:ae2:printed_calculation_processor>], true);
+<recipetype:create:deploying>.addRecipe("printed_logic_deployed", <item:minecraft:gold_ingot>, <item:ae2:logic_processor_press>, [<item:ae2:printed_logic_processor>], true);
 
 # Press Duplication
-<recipetype:create:deploying>.addRecipe("engineering_processor_press_dupe", <item:minecraft:iron_block>, <item:ae2:engineering_processor_press>, [<item:ae2:engineering_processor_press> * 2]);
-<recipetype:create:deploying>.addRecipe("silicon_press_dupe", <item:minecraft:iron_block>, <item:ae2:silicon_press>, [<item:ae2:silicon_press> * 2]);
-<recipetype:create:deploying>.addRecipe("calculation_processor_press_dupe", <item:minecraft:iron_block>,<item:ae2:calculation_processor_press>, [<item:ae2:calculation_processor_press> * 2]);
-<recipetype:create:deploying>.addRecipe("logic_processor_press", <item:minecraft:iron_block>, <item:ae2:logic_processor_press>, [<item:ae2:logic_processor_press> * 2]);
+<recipetype:create:deploying>.addRecipe("engineering_processor_press_dupe", <item:minecraft:iron_block>, <item:ae2:engineering_processor_press>, [<item:ae2:engineering_processor_press>], true);
+<recipetype:create:deploying>.addRecipe("silicon_press_dupe", <item:minecraft:iron_block>, <item:ae2:silicon_press>, [<item:ae2:silicon_press>], true);
+<recipetype:create:deploying>.addRecipe("calculation_processor_press_dupe", <item:minecraft:iron_block>,<item:ae2:calculation_processor_press>, [<item:ae2:calculation_processor_press>], true);
+<recipetype:create:deploying>.addRecipe("logic_processor_press", <item:minecraft:iron_block>, <item:ae2:logic_processor_press>, [<item:ae2:logic_processor_press>], true);
 
 # Dust Crushing Recipes 
 
