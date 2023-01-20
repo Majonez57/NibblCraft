@@ -1,6 +1,14 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/supplementaries-common.toml"
+hash = "ed52bfab34589040d0d4d53f7339e95e292b908b8bf40bb2708d8cf7f10b86aa"
+
+[[files]]
+file = "config/supplementaries-registry.toml"
+hash = "aee52f8d3997ec226096a5d9582dc0e5652c1f2dfa22b0868f5121795fc1a8aa"
+
+[[files]]
 file = "mods/additional-structures.pw.toml"
 hash = "3df047aecd9663e8f781fb2822aa48fec524fe1a2d8ed07a54ad0bf8e1d4a70f"
 metafile = true
