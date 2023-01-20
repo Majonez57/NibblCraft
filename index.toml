@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/alexsmobs.toml"
+hash = "e27c9d41a53a6999cfc724517c2eaec375134586b12a782144c70466c2bd4da5"
+
+[[files]]
 file = "config/supplementaries-common.toml"
 hash = "ed52bfab34589040d0d4d53f7339e95e292b908b8bf40bb2708d8cf7f10b86aa"
 
