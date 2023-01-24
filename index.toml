@@ -160,7 +160,7 @@ metafile = true
 
 [[files]]
 file = "mods/create.pw.toml"
-hash = "c1ab5c64ac36cdc7b2ccea6f017580ef7a2bae38093a713f9c66ffd3820a1d74"
+hash = "550373c6cde926832ea77f0d5e6fda708e37323468caca5a32d8ae9b88baeea7"
 metafile = true
 
 [[files]]
@@ -413,12 +413,12 @@ file = "scripts/ae2/AdditionalRecipes.zs"
 hash = "f5175b8b19f65c93d480bd234b041fdf591244bb2404220df4c7813cf573cf4d"
 
 [[files]]
-file = "scripts/ae2/DisableAutoCrafting.zs"
-hash = "7e5b9bf078385880aaeab23f73b1c62158c251afaa5a434c6e325388b9aa68dc"
-
-[[files]]
 file = "scripts/ae2/MiscellaneousRemovals.zs"
 hash = "43da5c6522818423f1e3bd90ab6ed66f3b7558dfac4db10618647b8d9568d7e2"
+
+[[files]]
+file = "scripts/ae2/RemoveMolecularAssembler.zs"
+hash = "b4b977ad3bcf73f79b599648c0c6fdb2a39c510172761975367924947d5fa9fa"
 
 [[files]]
 file = "scripts/ae2/StorageCells.zs"
@@ -426,7 +426,7 @@ hash = "0e36dcd82a98649567839ee7f9c927a4895003263a7ac4d5ed43bbb19159c55d"
 
 [[files]]
 file = "scripts/ae2/inscriberReplacement.zs"
-hash = "3c2606c8baded9ab029245dd67d17fe9c6cc08e201a71f6b47d5228d76e9c5e6"
+hash = "dc7f9ef4d263d07c3c3ed95e75fb47560edb68a93670597a202802cb1d270e84"
 
 [[files]]
 file = "scripts/create/automation.zs"

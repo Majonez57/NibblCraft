@@ -26,7 +26,6 @@ JEI.hideIngredient(<item:ae2:inscriber>);
 <recipetype:create:crushing>.addRecipe("fluix_dust_crush", [<item:ae2:fluix_dust>],<item:ae2:fluix_crystal>);
 <recipetype:create:crushing>.addRecipe("skystone_dust_crush", [<item:ae2:sky_dust>], <item:ae2:sky_stone_block>, 200);
 
-<recipetype:create:milling>.addRecipe("quartz_dust_mill", [<item:ae2:certus_quartz_dust>],<tag:items:ae2:all_certus_quartz>);
 <recipetype:create:milling>.addRecipe("fluix_dust_mill", [<item:ae2:fluix_dust>],<item:ae2:fluix_crystal>);
 
 # Sequenced Assembly circuits
